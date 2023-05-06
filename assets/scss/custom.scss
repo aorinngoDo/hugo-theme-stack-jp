@@ -1,1 +1,9 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+@font-face {
+    font-family: 'Koruri Regular';
+    src: url('../../fonts/Koruri-Regular-sub.eot');
+    src: url('../../fonts/Koruri-Regular-sub.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Koruri-Regular-sub.woff') format('woff'),
+    url('../../fonts/Koruri-Regular-sub.ttf') format('truetype');
+}
