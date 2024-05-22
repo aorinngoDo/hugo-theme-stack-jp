@@ -16,7 +16,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --accent-color: #34495e;
     --accent-color-darker: #2c3e50;
     --accent-color-text: #fff;
-    --body-text-color: #bababa;
+    --body-text-color: #707070;
 
     --tag-border-radius: 4px;
 
@@ -41,7 +41,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 */
 :root {
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
-    --ja-font-family: "IPA Gothic", "Ê∏∏„Ç¥„Ç∑„ÉÉ„ÇØ‰Ωì", "Yu Gothic", YuGothic, "„Éí„É©„ÇÆ„ÉéËßí„Ç¥ Pro", "Hiragino Kaku Gothic Pro", "„É°„Ç§„É™„Ç™", "Meiryo";
+    --ja-font-family: "IPA Gothic", "ü‡ÉSÉVÉbÉNëÃ", "Yu Gothic", YuGothic, "ÉqÉâÉMÉmäpÉS Pro", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", "Meiryo";
     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
     --base-font-family: "M PLUS 1p", "Lato", var(--sys-font-family), var(--ja-font-family), var(--zh-font-family), sans-serif;
@@ -57,7 +57,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     --card-text-color-main: #000;
     --card-text-color-secondary: #747474;
-    --card-text-color-tertiary: #bababa;
+    --card-text-color-tertiary: #767676;
     --card-separator-color: rgba(218, 218, 218, 0.5);
 
     --card-border-radius: 10px;
@@ -123,6 +123,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     --table-border-color: #dadada;
     --tr-even-background-color: #efefee;
+
+    --kbd-border-color: #dadada;
 
     &[data-scheme="dark"] {
         --code-background-color: #272822;
